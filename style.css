@@ -1,0 +1,26 @@
+body{
+	background-color:black;
+	color:blue;
+}
+
+div{
+		margin:10px;
+		background-color:white;
+		padding:10px;
+}
+
+a:link{
+		color:black;
+		background-color:blue;
+}
+
+a:visited{
+		color:black;
+		background-color;yellow
+}
+
+a:hover{
+	color:blue'
+	background-color:brown;
+	font-size:15px;
+}	
