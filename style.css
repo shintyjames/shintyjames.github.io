@@ -4,9 +4,11 @@ body{
 }
 
 div{
-		margin:10px;
+		margin:20px;
 		background-color:white;
-		padding:10px;
+		padding:20px;
+		border-radius:30px;
+		text-align:center
 }
 
 a:link{
@@ -23,4 +25,5 @@ a:hover{
 	color:blue'
 	background-color:brown;
 	font-size:15px;
+	font-weight:bolder;
 }	
