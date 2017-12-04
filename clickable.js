@@ -3,14 +3,10 @@
 function randomCircle(){
 
 	//randomly get top positions
-	document.getElementById("circle").style.top = "100px";
-	
+	document.getElementById("circle").style.top = randomNum();
+
 	//randomly get left positions 
-	document.getElementById("circle").style.left = "100px";
-	
-	//update position of circle
-	document.getElementById("circle").style.right = "100px";
-	
+	document.getElementById("circle").style.left = randomNum();
 	
 }
 
@@ -21,11 +17,17 @@ function clickCircle(){
 
 	//circle is clicked, hide circle
 	document.getElementById("circle").style.visibility = "hidden";
+		
+	//move circle
+	randomCircle();
 	
 	//generate random circle
-	document.getElementById("clickPanel").style.visibility = "appear";
+	document.getElementById("circle").style.visibility = "visible";
+	
+
 	
 }
 
-document.getElementById("circle").style.visibility = "hidden";
-document.getElementById("circle").style.top = "100px";
+function randomNum(){
+	return Math.floor(Math.random() * 200);
+}
