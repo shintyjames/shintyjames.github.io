@@ -6,15 +6,14 @@ img{
 		width:500px;
 }
 
-body {
-   background-image: url("http://cdn.playbuzz.com/cdn/1e93312f-6975-46b4-9283-127e93bf2849/e367cb5e-583f-470f-a154-d818a814dfce.png");
-   background-color: #cccccc;
+body{
+		color: cyan;
+		background-color: black;
 }
 
 #container{
 		margin:25px;
-		opacity:0.8;
-		background-color:white;
+		background-color:purple;
 		padding:15px;
 		border-radius:30px;
 		text-align:center;
