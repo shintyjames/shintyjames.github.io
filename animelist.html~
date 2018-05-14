@@ -3,13 +3,13 @@
 		<title>
 			Fatezero
 		</title>
-		<link rel="stylesheet" type="text/css" href="animelist.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<div id="container">
 		
 			<nav>
-			<a href="animehome.html"/>
+			<a href="animeproject.html"/>
 					Home
 			</a>
 			</nav>
@@ -18,30 +18,38 @@
 				Anime List(Sub)
 			</a>
 			</nav>
+			<div id="animelist">
+			<div class="box2">
 			<section>
-			<a href="http://kissanime.ru/Anime/Fate-Zero-Dub "onclick="hoverimage();" //>
+			<a href="http://kissanime.ru/Anime/Fate-Zero-Dub"/>
 				Fate/Zero(Dub)
 			</a>
 			</section>
 			<section>
-				<img src="http://img1.ak.crunchyroll.com/i/spire3/2ee05df6e44530437069955b71f09daf1317839234_full.jpg" />
+				<img src="square fate.jpg" />
 			</section>
+			</div>
+			<div class="box2"
 			<section>
 				<a href="http://kissanime.ru/Anime/Sword-Art-Online"/>
 					Sword Art Online(Sub)
 				</a>
 				</section>
 				<section>
-					<img src="https://images4.alphacoders.com/632/thumb-1920-632068.jpg" />
-				</section>	
+					<img src="SAO square.jpg" />
+				</section>
+			</div>
+			<div class="box2">	
 		    <section>
 				<a href="http://kissanime.ru/Anime/Date-A-Live-Dub"/>
 					Date A Live
 				</a>
 				</section>
 				<section>
-					<img src="https://i.ytimg.com/vi/wNxBaOx-oAA/maxresdefault.jpg" />
-				</section>	
+					<img src="date a live square.jpg" />
+				</section>
+			</div>
+			<div class="box2">	
 			<section>
 				<a href="http://kissanime.ru/Anime/No-Game-No-Life-Dub"/>
 					No Game No Life
@@ -50,14 +58,18 @@
 				<section>
 					<img src="https://images6.alphacoders.com/512/thumb-1920-512323.jpg" />
 				</section>	
+			</div>
+			<div class="box2">	
 			<section>
 				<a href="http://kissanime.ru/Anime/Tokyo-Ghoul-Dub"/>
 					Tokyo Ghoul
 				</a>
 				</section>
 				<section>
-					<img src="http://static.tvtropes.org/pmwiki/pub/images/tokyo_ghoul_5787.jpg" />
+					<img src="tokyo square.jpg" />
 				</section>
+			</div>	
+			<div class="box2">
 			<section>
 				<a href="http://kissanime.ru/Anime/Shingeki-no-Kyojin-Dub"/>
 					Attack on Titan
@@ -66,12 +78,10 @@
 				<section>
 					<img src="https://vignette.wikia.nocookie.net/shingekinokyojin/images/d/d8/Attack_on_Titan_Season_1.jpg/revision/latest/scale-to-width-down/333?cb=20171029222842" />
 				</section>
-<<<<<<< HEAD
+			</div>			
         <section>
-          
+			</div>
         </section>
-=======
->>>>>>> 838e8048ee9cd9bd166aa9c0d42bf0fa5fc292ab
 		</div>
 	</body>
 </html>
